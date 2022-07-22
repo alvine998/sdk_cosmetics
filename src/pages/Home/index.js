@@ -772,7 +772,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#f3d3de",
     },
     otherBody: {
-        height: normalize(1900),
+        height: normalize(1850),
         padding: normalize(20),
         backgroundColor: "white"
     }
