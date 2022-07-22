@@ -111,7 +111,7 @@ const Home = ({ navigation }) => {
                         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                             {
                                 dataProducts.map((value, index) =>
-                                    <TouchableOpacity key={index} style={[id == 1 ? styles.card : styles.card, { marginLeft: normalize(10) }]}>
+                                    <TouchableOpacity key={index} style={[value.id == 1 ? styles.card : styles.card, { marginLeft: normalize(10) }]}>
                                         <View style={styles.imgProduct}>
 
                                         </View>
